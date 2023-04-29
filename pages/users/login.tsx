@@ -2,8 +2,8 @@ import type { NextPage } from "next";
 
 
 import FormHeader from "../../app/components/shared/FormHeader";
-import SigninForm from "../../app/components/signin/SiginnForm";
-import SigninFormFooter from "../../app/components/signin/SigninFormFooter";
+import SignupForm from "../../app/components/signup/SignupForm";
+import SignupFormFooter from "../../app/components/signup/SignupFormFooter";
 
 const Login: NextPage = () => {
   return (
@@ -14,8 +14,8 @@ const Login: NextPage = () => {
           subtitle="سلام!"
           description="لطفا شماره موبایل یا ایمیل خود را وارد کنید"
         />
-        <SigninForm />
-        <SigninFormFooter />
+        <SignupForm />
+        <SignupFormFooter />
       </div>
     </div>
   );

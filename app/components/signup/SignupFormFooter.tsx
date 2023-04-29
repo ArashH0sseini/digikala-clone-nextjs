@@ -1,7 +1,7 @@
 import Router from "next/router";
 import React from "react";
 
-function SigninFormFooter() {
+function SignupFormFooter() {
   return (
     <div className="space-y-4">
       <div>
@@ -19,4 +19,4 @@ function SigninFormFooter() {
   );
 }
 
-export default SigninFormFooter;
+export default SignupFormFooter

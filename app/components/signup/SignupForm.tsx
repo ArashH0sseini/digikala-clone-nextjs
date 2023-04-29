@@ -4,7 +4,7 @@ import Router from "next/router";
 import callApi from "../../services/callApi";
 import ValidationError from "../../exceptions/validationError";
 
-function SigninForm() {
+function SignupForm() {
   const submitHandler = async (values: any, setFieldError: any) => {
     try {
       const res = await callApi().post("/auth/register", values);
@@ -50,4 +50,4 @@ function SigninForm() {
   );
 }
 
-export default SigninForm;
+export default SignupForm;
