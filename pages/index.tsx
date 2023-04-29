@@ -1,5 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Header from '../app/layouts/Header'
+import Navbar from '../app/layouts/Navbar'
 
 const Home: NextPage = () => {
   return (
@@ -9,6 +11,9 @@ const Home: NextPage = () => {
         <meta name="digikala" content="Digikala Clone NEXT.JS" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Header />
+      <Navbar />
     </div>
   )
 }
