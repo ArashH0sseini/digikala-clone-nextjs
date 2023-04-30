@@ -39,7 +39,7 @@ function Header() {
         </div>
       </div>
       <Divider />
-      <div className="flex items-center justify-between p-3 px-4 cursor-pointer">
+      <div className="flex items-center justify-between p-2 px-4 cursor-pointer">
         <div className="flex items-center space-x-2 space-x-reverse">
           <HiOutlineLocationMarker className="text-orange-400 w-5 h-5" />
           <p className="text-xs text-gray-600">لطفا شهر خود را انتخاب کنید</p>

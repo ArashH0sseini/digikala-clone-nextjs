@@ -1,9 +1,10 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Divider from '../app/components/shared/Divider'
-import MainHeader from '../app/layouts/MainHeader'
-import Header from '../app/layouts/Header'
-import Navbar from '../app/layouts/Navbar'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Divider from "../app/components/shared/Divider";
+import MainHeader from "../app/layouts/MainHeader";
+import Header from "../app/layouts/Header";
+import Navbar from "../app/layouts/Navbar";
+import Slider from "../app/layouts/Slider";
 
 const Home: NextPage = () => {
   return (
@@ -17,12 +18,13 @@ const Home: NextPage = () => {
       <MainHeader />
       <Navbar />
 
-      <Divider /> 
+      <Divider />
 
       <Header />
-
+      <Slider />
+      
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

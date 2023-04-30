@@ -6,14 +6,13 @@ import DrawerMenu from "../components/drawer/DrawerMenu";
 
 function Navbar() {
   return (
-    <div className="p-4 flex justify-between items-center">
+    <div className="py-1 px-4 flex justify-between items-center">
       <div>
-        {/* <HiMenu className="w-5 h-5" /> */}
        <DrawerMenu />
       </div>
 
-      <div>
-        <Image src={Logo} alt="" height="25" />
+      <div className="mt-3">
+        <Image src={Logo} alt="" height="25"  />
       </div>
 
       <div>
