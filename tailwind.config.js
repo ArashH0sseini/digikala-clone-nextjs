@@ -28,6 +28,7 @@ module.exports = {
     extend: {
       backgroundImage:{
         'header': "url(/images/header.jpg)",
+        'freshPattern': "url(/images/freshPattern.svg)",
       }
     },
   },

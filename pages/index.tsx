@@ -7,6 +7,7 @@ import Navbar from "../app/layouts/Navbar";
 import Slider from "../app/layouts/Slider";
 import Category from "../app/layouts/Category";
 import AmazingProducts from "../app/layouts/AmazingProducts";
+import AmazingMarket from "../app/layouts/AmazingMarket";
 
 const Home: NextPage = () => {
   return (
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
       <Slider />
       <Category />
       <AmazingProducts />
+      <AmazingMarket />
       
     </div>
   );
