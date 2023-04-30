@@ -15,48 +15,48 @@ function Category() {
       <Link href="/">
         <div className="flex flex-col items-center space-y-2 cursor-pointer">
           <Image src={Cat1} alt="" height="52" width="52" />
-          <span className="text-xs">دیجی کالا جت</span>
+          <span className="text-[7px] xs:text-[10px] sm:text-xs">دیجی‌کالا جت</span>
         </div>
       </Link>
       <Link href="/">
         <div className="flex flex-col items-center space-y-2 cursor-pointer">
           <Image src={Cat2} alt="" height="52" width="52" />
-          <span className="text-xs">حراج استایل</span>
+          <span className="text-[7px] xs:text-[10px] sm:text-xs">حراج استایل</span>
         </div>
       </Link>
 
       <Link href="/">
         <div className="flex flex-col items-center space-y-2 cursor-pointer">
           <Image src={Cat3} alt="" height="52" width="52" />
-          <span className="text-xs">خرید اقساطی</span>
+          <span className="text-[7px] xs:text-[10px] sm:text-xs">خرید اقساطی</span>
         </div>
       </Link>
 
       <Link href="/">
         <div className="flex flex-col items-center space-y-2 cursor-pointer">
           <Image src={Cat4} alt="" height="52" width="52" />
-          <span className="text-xs">دیجی کالا سرویس</span>
+          <span className="text-[7px] xs:text-[10px] sm:text-xs">دیجی‌کالا سرویس</span>
         </div>
       </Link>
 
       <Link href="/">
         <div className="flex flex-col items-center space-y-2 cursor-pointer">
           <Image src={Cat5} alt="" height="52" width="52" />
-          <span className="text-xs">چرخ و بخت</span>
+          <span className="text-[7px] xs:text-[10px] sm:text-xs">چرخ و بخت</span>
         </div>
       </Link>
 
       <Link href="/">
         <div className="flex flex-col items-center space-y-2 cursor-pointer">
           <Image src={Cat6} alt="" height="52" width="52" />
-          <span className="text-xs">دیجی کالا پلاس</span>
+          <span className="text-[7px] xs:text-[10px] sm:text-xs">دیجی‌کالا پلاس</span>
         </div>
       </Link>
 
       <Link href="/">
         <div className="flex flex-col items-center space-y-2 cursor-pointer">
           <Image src={Cat7} alt="" height="52" width="52" />
-          <span className="text-xs">ماموریت ها</span>
+          <span className="text-[7px] xs:text-[10px] sm:text-xs">ماموریت ها</span>
         </div>
       </Link>
 
@@ -65,7 +65,7 @@ function Category() {
           <p className=" w-[52px] h-[52px] text-center text-gray-400 font-semibold text-4xl bg-gray-100 rounded-full">
             ...
           </p>
-          <span className="text-xs">بیشتر</span>
+          <span className="text-[7px] xs:text-[10px] sm:text-xs">بیشتر</span>
         </div>
       </Link>
     </div>

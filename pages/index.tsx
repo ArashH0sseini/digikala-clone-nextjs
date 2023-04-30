@@ -6,6 +6,7 @@ import Header from "../app/layouts/Header";
 import Navbar from "../app/layouts/Navbar";
 import Slider from "../app/layouts/Slider";
 import Category from "../app/layouts/Category";
+import AmazingProducts from "../app/layouts/AmazingProducts";
 
 const Home: NextPage = () => {
   return (
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       <Header />
       <Slider />
       <Category />
+      <AmazingProducts />
       
     </div>
   );

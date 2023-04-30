@@ -29,7 +29,7 @@ export default function Slider() {
         className="h-[16.7rem] hover:cursor-pointer mySwiper"
       >
         <SwiperSlide>
-          <Image src={Slide1} alt="" objectFit="cover" layout="fill" quality="100" />
+          <Image src={Slide1} alt="" objectFit="cover" layout="fill" />
         </SwiperSlide>
         <SwiperSlide>
           <Image src={Slide2} alt="" objectFit="cover" layout="fill" />
