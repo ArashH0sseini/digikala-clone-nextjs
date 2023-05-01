@@ -11,6 +11,7 @@ import Slide6 from "../assets/images/slide6.gif";
 import Slide7 from "../assets/images/slide7.jpg";
 import Slide8 from "../assets/images/slide8.jpg";
 import Slide9 from "../assets/images/slide9.jpg";
+import Slide10 from "../assets/images/slide10.webp";
 
 export default function Slider() {
   return (
@@ -26,10 +27,13 @@ export default function Slider() {
           clickable: true,
         }}
         modules={[Autoplay, Navigation, Pagination]}
-        className="h-[16.7rem] hover:cursor-pointer mySwiper"
+        className="h-[16.7rem] lg:h-[400px] hover:cursor-pointer mySwiper"
       >
         <SwiperSlide>
           <Image src={Slide1} alt="" objectFit="cover" layout="fill" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={Slide10} alt="" objectFit="cover" layout="fill" />
         </SwiperSlide>
         <SwiperSlide>
           <Image src={Slide2} alt="" objectFit="cover" layout="fill" />

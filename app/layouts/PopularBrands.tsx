@@ -26,7 +26,7 @@ import { BsStars } from "react-icons/bs";
 
 function PopularBrands() {
   return (
-    <div className="my-10 px-6">
+    <div className="my-10 px-6 lg:px-0">
       <div className="lg:border-2 rounded-2xl cursor-pointer lg:py-8">
         <div className="flex items-center justify-center space-x-2 space-x-reverse mb-6">
           <BsStars className="text-yellow-400 w-6 h-6" />

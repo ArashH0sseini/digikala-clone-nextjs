@@ -6,7 +6,7 @@ import DrawerMenu from "../components/drawer/DrawerMenu";
 
 function Navbar() {
   return (
-    <div className="py-1 px-4 flex justify-between items-center">
+    <div className="lg:hidden py-1 px-4 flex justify-between items-center">
       <div>
        <DrawerMenu />
       </div>

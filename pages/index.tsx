@@ -13,6 +13,7 @@ import ProductsCategory from "../app/layouts/ProductsCategory";
 import SecondSideBanner from "../app/components/banner/SecondSideBanner";
 import ProductsOffer from "../app/layouts/ProductsOffer";
 import PopularBrands from "../app/layouts/PopularBrands";
+import ThirdSideBanner from "../app/components/banner/ThirdSideBanner";
 
 const Home: NextPage = () => {
   return (
@@ -27,7 +28,7 @@ const Home: NextPage = () => {
       <Navbar />
 
       <Divider />
-
+      
       <Header />
       <Slider />
       <div className="lg:max-w-7xl lg:mx-auto lg:px-6">
@@ -39,6 +40,7 @@ const Home: NextPage = () => {
         <SecondSideBanner />
         <ProductsOffer />
         <PopularBrands />
+        <ThirdSideBanner />
       </div>
     </div>
   );

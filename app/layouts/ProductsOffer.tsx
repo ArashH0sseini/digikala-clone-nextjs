@@ -19,7 +19,7 @@ import Offer14 from "../assets/images/offer14.jpg";
 
 function ProductsOffer() {
   return (
-    <div className="px-6">
+    <div className="px-6 lg:px-0">
       <h3 className="text-center text-xl mb-8">پیشنهاد دیجی‌کالا</h3>
       <div className="border-2 rounded-2xl cursor-pointer">
         <Swiper
