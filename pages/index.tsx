@@ -14,6 +14,7 @@ import SecondSideBanner from "../app/components/banner/SecondSideBanner";
 import ProductsOffer from "../app/layouts/ProductsOffer";
 import PopularBrands from "../app/layouts/PopularBrands";
 import ThirdSideBanner from "../app/components/banner/ThirdSideBanner";
+import StoryBox from "../app/layouts/StoryBox";
 
 const Home: NextPage = () => {
   return (
@@ -30,6 +31,7 @@ const Home: NextPage = () => {
       <Divider />
       
       <Header />
+      <StoryBox />
       <Slider />
       <div className="lg:max-w-7xl lg:mx-auto lg:px-6">
         <Category />

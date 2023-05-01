@@ -11,7 +11,7 @@ import Cat7 from "../assets/images/cat7.png";
 
 function Category() {
   return (
-    <div className="grid grid-rows-2 grid-cols-4 lg:flex lg:justify-between lg:items-center px-4 max-w-5xl xl:max-w-6xl mx-auto gap-6 py-6">
+    <div className="grid grid-rows-2 grid-cols-4 lg:flex lg:justify-between lg:items-center px-4 max-w-5xl xl:max-w-6xl mx-auto gap-6 my-6 lg:my-10">
       <Link href="/">
         <div className="flex flex-col items-center space-y-2 cursor-pointer">
           <Image src={Cat1} alt="" height="52" width="52" />
