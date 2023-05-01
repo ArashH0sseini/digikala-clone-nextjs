@@ -9,6 +9,7 @@ import Category from "../app/layouts/Category";
 import AmazingProducts from "../app/layouts/AmazingProducts";
 import AmazingMarket from "../app/layouts/AmazingMarket";
 import FirstSideBanner from "../app/components/banner/FirstSideBanner";
+import ProductsCategory from "../app/layouts/ProductsCategory";
 
 const Home: NextPage = () => {
   return (
@@ -31,6 +32,7 @@ const Home: NextPage = () => {
         <AmazingProducts />
         <AmazingMarket />
         <FirstSideBanner />
+        <ProductsCategory />
       </div>
     </div>
   );
