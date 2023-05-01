@@ -11,6 +11,7 @@ import AmazingMarket from "../app/layouts/AmazingMarket";
 import FirstSideBanner from "../app/components/banner/FirstSideBanner";
 import ProductsCategory from "../app/layouts/ProductsCategory";
 import SecondSideBanner from "../app/components/banner/SecondSideBanner";
+import ProductsOffer from "../app/layouts/ProductsOffer";
 
 const Home: NextPage = () => {
   return (
@@ -35,6 +36,7 @@ const Home: NextPage = () => {
         <FirstSideBanner />
         <ProductsCategory />
         <SecondSideBanner />
+        <ProductsOffer />
       </div>
     </div>
   );
