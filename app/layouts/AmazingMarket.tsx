@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
@@ -14,9 +15,8 @@ import { HiOutlineArrowLeft } from "react-icons/hi";
 
 function AmazingMarket() {
   return (
-    <div className="max-w-7xl mx-auto">
-      <div className="relative bg-gradient-to-r from-gray-100 to-green-100 h-40 lg:h-28 rounded-lg my-10 mx-4">
-        <div className="absolute top-0 left-0">
+      <div className="relative bg-gradient-to-r from-gray-100 to-green-100 h-40 lg:h-28 rounded-lg my-3 mx-6 lg:mx-0">
+        <div className="absolute top-8 left-0">
           <Image src={FreshPattern} alt="" />
         </div>
         <div className="flex flex-col lg:flex-row lg:items-center justify-between h-full px-8 py-3">
@@ -120,7 +120,7 @@ function AmazingMarket() {
                 </span>
               </div>
             </div>
-            <div className="relative bg-white px-4 py-4 rounded-full lg:flex lg:justify-center lg:space-x-2 lg:space-x-reverse">
+            <div className="relative bg-white px-3 py-3 lg:px-4 lg:py-4 rounded-full lg:flex lg:justify-center lg:space-x-2 lg:space-x-reverse">
               <p className="hidden lg:block text-[#39ae00] text-sm">
                 بیش از ۱۰۰ کالا
               </p>
@@ -129,7 +129,6 @@ function AmazingMarket() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
