@@ -182,7 +182,7 @@ function ProductsOffer() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center border-l-[1px] w-40 h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer8}
@@ -196,7 +196,7 @@ function ProductsOffer() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center border-l-[1px] w-40 h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer9}
@@ -210,7 +210,7 @@ function ProductsOffer() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center border-l-[1px] w-40 h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer10}
@@ -224,7 +224,7 @@ function ProductsOffer() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center border-l-[1px] w-40 h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer11}
@@ -238,7 +238,7 @@ function ProductsOffer() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0  w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center border-l-[1px] w-40 h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer12}
@@ -252,7 +252,7 @@ function ProductsOffer() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center border-l-[1px] w-40 h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer13}
@@ -266,7 +266,7 @@ function ProductsOffer() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 border-l-0  w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center  w-40 h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer14}

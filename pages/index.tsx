@@ -12,6 +12,7 @@ import FirstSideBanner from "../app/components/banner/FirstSideBanner";
 import ProductsCategory from "../app/layouts/ProductsCategory";
 import SecondSideBanner from "../app/components/banner/SecondSideBanner";
 import ProductsOffer from "../app/layouts/ProductsOffer";
+import PopularBrands from "../app/layouts/PopularBrands";
 
 const Home: NextPage = () => {
   return (
@@ -37,6 +38,7 @@ const Home: NextPage = () => {
         <ProductsCategory />
         <SecondSideBanner />
         <ProductsOffer />
+        <PopularBrands />
       </div>
     </div>
   );
