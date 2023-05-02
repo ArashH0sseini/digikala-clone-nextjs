@@ -5,8 +5,11 @@ import { useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import Router from "next/router";
 import { selectPhoneVerfyToken, updatePhoneVerifyToken } from "../../app/store/auth";
+import { NextPageWithLayout } from "../_app";
+import UserPanelLayout from "../../app/components/UserPanelLayout";
+import GuestLayout from "../../app/components/GuestLayout";
 
-const VeifyLogin: NextPage = () => {
+const VeifyLogin: NextPageWithLayout = () => {
 
   const dispatch = useAppDispatch();
   const token = useAppSelector(selectPhoneVerfyToken);
@@ -40,5 +43,8 @@ const clearPhoneVerifyToken = () => {
     </div>
   );
 };
+
+VeifyLogin.getLayout = page => <GuestLayout>{page}</GuestLayout>
+
 
 export default VeifyLogin;

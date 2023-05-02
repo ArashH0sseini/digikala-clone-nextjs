@@ -7,6 +7,7 @@ import {
   HiMenu,
   HiOutlineLocationMarker,
   HiOutlineLogin,
+  HiOutlineUser,
 } from "react-icons/hi";
 import { HiMagnifyingGlass, HiOutlineReceiptPercent } from "react-icons/hi2";
 import { TfiShoppingCart } from "react-icons/tfi";
@@ -14,10 +15,13 @@ import Divider from "../components/shared/Divider";
 import Logo from "../assets/images/logo.svg";
 import { GiFruitBowl } from "react-icons/gi";
 import { TbDiscount2 } from "react-icons/tb";
+import { AiFillCaretDown } from "react-icons/ai";
+import useAuth from "../hooks/useAuth";
 
 function Header() {
+  const { user } = useAuth();
   return (
-    <div className="lg:border-b-[1px] lg:border-gray-300">
+    <div className="lg:border-b-[1px] lg:border-gray-300 bg-white lg:sticky lg:top-0 z-10">
       <div className="flex items-center py-2 pr-4 lg:pr-0 space-x-4">
         <div className="hidden lg:block lg: mt-2">
           <Image src={Logo} alt="" height="30" width="150" />
@@ -40,15 +44,22 @@ function Header() {
         </div>
 
         <div className="flex items-center space-x-4 space-x-reverse">
-          <div className="flex items-center justify-center space-x-2 space-x-reverse w-24 lg:w-36 cursor-pointer lg:border-[1px] lg:rounded-lg lg:py-2">
-            <HiOutlineLogin className="h-6 w-6" />
-            <span className="text-sm font-medium">ورود</span>
-            <span className="hidden lg:block text-sm font-medium">
-              | ثبت نام
-            </span>
-          </div>
-          <div className="lg:border-r-[1px] lg:pr-6">
-            <TfiShoppingCart className="w-6 h-6 " />
+          {user ? (
+            <div className="flex items-center cursor-pointer">
+              <HiOutlineUser className="w-7 h-7 text-gray-700" />
+              <AiFillCaretDown className="hidden lg:block w-3 h-3 text-gray-700" />
+            </div>
+          ) : (
+            <div className="flex items-center justify-center space-x-2 space-x-reverse w-24 lg:w-36 cursor-pointer lg:border-[1px] lg:rounded-lg lg:py-2">
+              <HiOutlineLogin className="h-6 w-6 text-gray-700" />
+              <span className="text-sm font-medium">ورود</span>
+              <span className="hidden lg:block text-sm font-medium">
+                | ثبت نام
+              </span>
+            </div>
+          )}
+          <div className="lg:border-r-[1px] lg:pr-6 cursor-pointer">
+            <TfiShoppingCart className="w-6 h-6 text-gray-700" />
           </div>
         </div>
       </div>

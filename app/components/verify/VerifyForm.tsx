@@ -1,6 +1,7 @@
 import { Field, Form, Formik, ErrorMessage } from "formik";
 import Router from "next/router";
 import ValidationError from "../../exceptions/validationError";
+import { storeLoginToken } from "../../helpers/auth";
 
 import callApi from "../../services/callApi";
 import { codeVerifyValidation } from "../../validations/codeVerifyValidation";
@@ -17,7 +18,8 @@ function VerifyForm({ token, clearToken }: Props) {
       const res = await callApi().post("/auth/login/verify-phone", values);
       if (res.status === 200) {
         //clear phone verify token from redux
-        await Router.push("/");
+        storeLoginToken(res.data?.user?.token);
+        await Router.push("/panel");
         clearToken();
       }
     } catch (error) {

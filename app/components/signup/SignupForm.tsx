@@ -3,6 +3,7 @@ import { loginValidation } from "../../validations/loginValidation";
 import Router from "next/router";
 import callApi from "../../services/callApi";
 import ValidationError from "../../exceptions/validationError";
+import { useState } from "react";
 
 function SignupForm() {
   const submitHandler = async (values: any, setFieldError: any) => {
@@ -14,7 +15,7 @@ function SignupForm() {
     } catch (error) {
       if (error instanceof ValidationError) {
         Object.entries(error.message).forEach(([key, value]) =>
-          setFieldError(key, value as string),
+          setFieldError(key, value as string)
         );
       }
     }

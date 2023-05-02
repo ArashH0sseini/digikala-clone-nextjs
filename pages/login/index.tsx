@@ -1,10 +1,13 @@
 import type { NextPage } from "next";
+import GuestLayout from "../../app/components/GuestLayout";
 import LoginForm from "../../app/components/login/LoginForm";
 import FormHeader from "../../app/components/shared/FormHeader";
+import UserPanelLayout from "../../app/components/UserPanelLayout";
 import { useAppDispatch } from "../../app/hooks";
 import { updatePhoneVerifyToken } from "../../app/store/auth";
+import { NextPageWithLayout } from "../_app";
 
-const Login: NextPage = () => {
+const Login: NextPageWithLayout = () => {
   const dispatch = useAppDispatch();
   const setPhoneVerifyToken = (token: string) => {
     dispatch(updatePhoneVerifyToken(token));
@@ -23,4 +26,6 @@ const Login: NextPage = () => {
   );
 };
 
+Login.getLayout = page => <GuestLayout>{page}</GuestLayout>
+ 
 export default Login;

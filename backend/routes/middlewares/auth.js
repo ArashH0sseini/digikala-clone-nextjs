@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const db = require('../../app/db/createDatabase');
 
 const auth = (req, res, next) => {
-    const token = req.headers?.authorization;
+    const token = req.headers?.authorization || req.cookies?.digi_token;
 
     if(! token ) {
         return res.status(403).json({ status: 'fail' , message : 'unauthorized'})
@@ -10,7 +10,8 @@ const auth = (req, res, next) => {
 
     try {
         let decoded = jwt.verify(token, process.env.TOKEN_KEY);
-        db.get(`SELECT * FROM users WHERE email = ?` , decoded.email , function(err, user) {
+        console.log(decoded);
+        db.get(`SELECT * FROM users WHERE id = ? and token = ?` , [ decoded.user_id , token] , function(err, user) {
             
             if (err) {
                 res.status(400).json({"error": err.message})
@@ -18,7 +19,7 @@ const auth = (req, res, next) => {
             }
 
             if(user.token != token) {
-                return res.status(403).json({ status: 'fail' , message : 'unauthorized'})
+                return res.status(403).json({ status: 'fail' , message : 'unauthenticated'})
             }
 
             const { id , name , email } = user;
@@ -27,7 +28,7 @@ const auth = (req, res, next) => {
         });
     } catch(err) {
         console.log(err);
-        return res.status(403).json({ status: 'fail' , message : 'unauthorized'})
+        return res.status(403).json({ status: 'fail' , message : 'unauthenticated'})
     }
 }
 
