@@ -15,6 +15,7 @@ import ProductsOffer from "../app/layouts/ProductsOffer";
 import PopularBrands from "../app/layouts/PopularBrands";
 import ThirdSideBanner from "../app/components/banner/ThirdSideBanner";
 import StoryBox from "../app/layouts/StoryBox";
+import VisitedProducts from "../app/layouts/VisitedProducts";
 
 const Home: NextPage = () => {
   return (
@@ -29,7 +30,7 @@ const Home: NextPage = () => {
       <Navbar />
 
       <Divider />
-      
+
       <Header />
       <StoryBox />
       <Slider />
@@ -43,6 +44,7 @@ const Home: NextPage = () => {
         <ProductsOffer />
         <PopularBrands />
         <ThirdSideBanner />
+        <VisitedProducts />
       </div>
     </div>
   );
