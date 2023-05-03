@@ -29,6 +29,7 @@ module.exports = {
       backgroundImage:{
         'header': "url(/images/header.jpg)",
         'freshPattern': "url(/images/freshPattern.svg)",
+        'digiPlus': "url(/images/plus-widget.png)",
       }
     },
   },

@@ -21,7 +21,7 @@ import Visit16 from "../assets/images/visit16.jpg";
 
 function VisitedProducts() {
   return (
-    <div className=" grid grid-cols-1 lg:grid-cols-4 gap-[1px] bg-gray-200 lg:border-[1px] rounded-2xl overflow-hidden mb-10">
+    <div className=" grid grid-cols-1 lg:grid-cols-4 gap-[1px] bg-gray-200 lg:border-[1px] rounded-2xl overflow-hidden mb-6">
       <div className=" bg-white">
         <div className="space-y-2 px-4 py-4">
           <h3>گوشی موبایل</h3>
