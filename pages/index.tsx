@@ -17,6 +17,7 @@ import ThirdSideBanner from "../app/components/banner/ThirdSideBanner";
 import StoryBox from "../app/layouts/StoryBox";
 import VisitedProducts from "../app/layouts/VisitedProducts";
 import DigiPlus from "../app/layouts/DigiPlus";
+import DigiClub from "../app/layouts/DigiClub";
 
 const Home: NextPage = () => {
   return (
@@ -47,6 +48,7 @@ const Home: NextPage = () => {
         <ThirdSideBanner />
         <VisitedProducts />
         <DigiPlus />
+        <DigiClub />
       </div>
     </div>
   );

@@ -19,7 +19,7 @@ import Plus12 from "../assets/images/plus12.jpg";
 
 function DigiPlus() {
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-between w-full bg-[#941b80] lg:rounded-2xl mb-10 p-4">
+    <div className="flex flex-col lg:flex-row lg:justify-between w-full bg-[#941b80] lg:rounded-2xl mb-2 p-4">
       <div className="pt-2 mb-6 lg:mb-0 lg:pl-0 bg-digiPlus lg:bg-none bg-contain bg-left-bottom bg-no-repeat min-h-[355px] flex-grow-1 xl:max-w-[416px] xl:bg-[length:372px_279px] ">
         <div className="px-4">
           <div className="my-4">
