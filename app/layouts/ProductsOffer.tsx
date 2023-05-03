@@ -29,54 +29,54 @@ function ProductsOffer() {
               slidesPerView: 2,
               spaceBetween:0,
               grid:{
-                rows:2
+                rows:1
               }
             },
             460: {
               slidesPerView: 2.8,
               spaceBetween:0,
               grid:{
-                rows:2
+                rows:1
               }
             },
             560: {
               slidesPerView: 3.3,
               spaceBetween:0,
               grid:{
-                rows:2
+                rows:1
               }
             },
             640: {
               slidesPerView: 3.8,
               spaceBetween:0,
               grid:{
-                rows:2
+                rows:1
               }
             },
             768: {
               slidesPerView: 4.5,
               spaceBetween:0,
               grid:{
-                rows:2
+                rows:1
               }
             },
             1024: {
               slidesPerView: 5.5,
               spaceBetween:0,
               grid:{
-                rows:2
+                rows:1
               }
             },
             1280: {
               slidesPerView: 7,
               spaceBetween:0,
               grid:{
-                rows:2
+                rows:1
               }
             },
           }}
           grid={{
-            rows: 2,
+            rows: 1,
             fill: "row",
           }}
           spaceBetween={0}
@@ -84,7 +84,7 @@ function ProductsOffer() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer1}
@@ -96,9 +96,7 @@ function ProductsOffer() {
               </div>
                 <span className="text-xs">گوشی موبایل</span>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40 border-t-[1px]">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer2}
@@ -111,8 +109,8 @@ function ProductsOffer() {
                 <span className="text-xs">ساعت هوشمند</span>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 w-40 h-40">
+          <SwiperSlide className="border-r-[1px]">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer3}
@@ -124,9 +122,7 @@ function ProductsOffer() {
               </div>
                 <span className="text-xs">لپ تاپ و الترابوک</span>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40 border-t-[1px]">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer4}
@@ -139,8 +135,8 @@ function ProductsOffer() {
                 <span className="text-xs">اسپیکر (بلندگو)</span>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 w-40 h-40">
+          <SwiperSlide className="border-r-[1px]">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer5}
@@ -152,9 +148,7 @@ function ProductsOffer() {
               </div>
                 <span className="text-xs">کیف و کاور گوشی</span>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40 border-t-[1px]">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer6}
@@ -167,8 +161,8 @@ function ProductsOffer() {
                 <span className="text-xs">هدفون و هدست و...</span>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-[1px] border-t-0 border-r-0 border-l-0  w-40 h-40">
+          <SwiperSlide className="border-r-[1px]">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer7}
@@ -180,9 +174,7 @@ function ProductsOffer() {
               </div>
                 <span className="text-xs">موتورسیکلت</span>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-l-[1px] w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40 border-t-[1px]">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer8}
@@ -195,8 +187,8 @@ function ProductsOffer() {
                 <span className="text-xs">کنسول خانگی</span>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-l-[1px] w-40 h-40">
+          <SwiperSlide className="border-r-[1px]">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer9}
@@ -208,9 +200,7 @@ function ProductsOffer() {
               </div>
                 <span className="text-xs">استند و پایه...</span>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-l-[1px] w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40 border-t-[1px]">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer10}
@@ -223,8 +213,8 @@ function ProductsOffer() {
                 <span className="text-xs">کیبورد  (صفحه کلید)</span>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-l-[1px] w-40 h-40">
+          <SwiperSlide className="border-r-[1px]">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer11}
@@ -236,9 +226,7 @@ function ProductsOffer() {
               </div>
                 <span className="text-xs">تبلت</span>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-l-[1px] w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40 border-t-[1px]">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer12}
@@ -251,8 +239,8 @@ function ProductsOffer() {
                 <span className="text-xs">جوراب زنانه</span>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center border-l-[1px] w-40 h-40">
+          <SwiperSlide className="border-r-[1px]">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer13}
@@ -264,9 +252,7 @@ function ProductsOffer() {
               </div>
                 <span className="text-xs">لباس زیر</span>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col space-y-2 items-center justify-center  w-40 h-40">
+            <div className="flex flex-col space-y-2 items-center justify-center w-full h-40 border-t-[1px]">
               <div className="flex items-center justify-center w-20 h-20 bg-white border-2 rounded-full">
                 <Image
                   src={Offer14}
