@@ -18,6 +18,7 @@ import StoryBox from "../app/layouts/StoryBox";
 import VisitedProducts from "../app/layouts/VisitedProducts";
 import DigiPlus from "../app/layouts/DigiPlus";
 import DigiClub from "../app/layouts/DigiClub";
+import SecondVisitedProducts from "../app/layouts/SecondVisitedProducts";
 
 const Home: NextPage = () => {
   return (
@@ -49,6 +50,7 @@ const Home: NextPage = () => {
         <VisitedProducts />
         <DigiPlus />
         <DigiClub />
+        <SecondVisitedProducts />
       </div>
     </div>
   );
