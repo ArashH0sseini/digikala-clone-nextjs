@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Divider from "../app/components/shared/Divider";
+import DividerFull from "../app/components/shared/DividerFull";
 import MainHeader from "../app/layouts/MainHeader";
 import Header from "../app/layouts/Header";
 import Navbar from "../app/layouts/Navbar";
@@ -19,6 +20,7 @@ import VisitedProducts from "../app/layouts/VisitedProducts";
 import DigiPlus from "../app/layouts/DigiPlus";
 import DigiClub from "../app/layouts/DigiClub";
 import SecondVisitedProducts from "../app/layouts/SecondVisitedProducts";
+import DigikalaMag from "../app/layouts/DigikalaMag";
 
 const Home: NextPage = () => {
   return (
@@ -51,7 +53,11 @@ const Home: NextPage = () => {
         <DigiPlus />
         <DigiClub />
         <SecondVisitedProducts />
+        <DigikalaMag />
       </div>
+      
+      <DividerFull />
+
     </div>
   );
 };
