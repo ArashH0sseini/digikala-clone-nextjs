@@ -21,6 +21,7 @@ import DigiPlus from "../app/layouts/DigiPlus";
 import DigiClub from "../app/layouts/DigiClub";
 import SecondVisitedProducts from "../app/layouts/SecondVisitedProducts";
 import DigikalaMag from "../app/layouts/DigikalaMag";
+import Footer from "../app/layouts/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -55,9 +56,9 @@ const Home: NextPage = () => {
         <SecondVisitedProducts />
         <DigikalaMag />
       </div>
-      
-      <DividerFull />
 
+      <DividerFull />
+      <Footer />
     </div>
   );
 };
