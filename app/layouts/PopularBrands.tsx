@@ -27,7 +27,7 @@ import { BsStars } from "react-icons/bs";
 function PopularBrands() {
   return (
     <div className="my-10 px-6 lg:px-0">
-      <div className="lg:border-2 rounded-2xl cursor-pointer lg:py-8">
+      <div className="lg:border-[1px] rounded-2xl lg:py-8">
         <div className="flex items-center justify-center space-x-2 space-x-reverse mb-6">
           <BsStars className="text-yellow-400 w-6 h-6" />
           <h3 className="text-center text-xl">محبوب ترین برندها</h3>
@@ -94,7 +94,7 @@ function PopularBrands() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand1}
                   alt=""
@@ -103,7 +103,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand2}
                   alt=""
@@ -112,7 +112,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand3}
                   alt=""
@@ -121,7 +121,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand4}
                   alt=""
@@ -130,7 +130,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand5}
                   alt=""
@@ -139,7 +139,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand6}
                   alt=""
@@ -148,7 +148,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand7}
                   alt=""
@@ -157,7 +157,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand8}
                   alt=""
@@ -166,7 +166,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand9}
                   alt=""
@@ -175,7 +175,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand10}
                   alt=""
@@ -184,7 +184,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand11}
                   alt=""
@@ -193,7 +193,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand12}
                   alt=""
@@ -202,7 +202,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand13}
                   alt=""
@@ -211,7 +211,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand14}
                   alt=""
@@ -220,7 +220,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand15}
                   alt=""
@@ -229,7 +229,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand16}
                   alt=""
@@ -238,7 +238,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand17}
                   alt=""
@@ -247,7 +247,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand18}
                   alt=""
@@ -256,7 +256,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand19}
                   alt=""
@@ -265,7 +265,7 @@ function PopularBrands() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-10">
+            <div className="flex items-center justify-center border-l-[1px] h-28 w-44 p-8">
                 <Image
                   src={Brand20}
                   alt=""

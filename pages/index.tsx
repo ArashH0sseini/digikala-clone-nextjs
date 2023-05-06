@@ -22,6 +22,7 @@ import DigiClub from "../app/layouts/DigiClub";
 import SecondVisitedProducts from "../app/layouts/SecondVisitedProducts";
 import DigikalaMag from "../app/layouts/DigikalaMag";
 import Footer from "../app/layouts/Footer";
+import BestSellingProducts from "../app/layouts/BestSellingProducts";
 
 const Home: NextPage = () => {
   return (
@@ -54,6 +55,7 @@ const Home: NextPage = () => {
         <DigiPlus />
         <DigiClub />
         <SecondVisitedProducts />
+        <BestSellingProducts />
         <DigikalaMag />
       </div>
 
