@@ -9,7 +9,7 @@ import Digiplus from "../assets/images/digiplus.svg";
 import Digiclub from "../assets/images/digiclub.svg";
 import Digijet from "../assets/images/jet.svg";
 import Magnet from "../assets/images/magnet.svg";
-import Digimehr from "../assets/images/digimehr.svg";
+import Digimehr from "../assets/images/digiMehr.svg";
 import Fidibo from "../assets/images/fidibo.svg";
 import Diginext from "../assets/images/diginext.svg";
 import Pindo from "../assets/images/pindo.svg";

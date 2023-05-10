@@ -55,7 +55,7 @@ const Home: NextPage = () => {
         <DigiPlus />
         <DigiClub />
         <SecondVisitedProducts />
-        <BestSellingProducts />
+        {/* <BestSellingProducts /> */}
         <DigikalaMag />
       </div>
 

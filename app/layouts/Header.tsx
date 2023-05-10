@@ -19,7 +19,8 @@ import { AiFillCaretDown } from "react-icons/ai";
 import useAuth from "../hooks/useAuth";
 
 function Header() {
-  const { user } = useAuth();
+  const { user } = useAuth()
+
   return (
     <div className="lg:border-b-[1px] lg:border-gray-300 bg-white lg:sticky lg:top-0 z-10">
       <div className="flex items-center py-2 pr-4 lg:pr-0 space-x-4">

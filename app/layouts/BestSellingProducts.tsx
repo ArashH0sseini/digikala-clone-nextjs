@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Grid } from "swiper";
-import Brand1 from "../assets/images/Brand1.png";
+import Brand1 from "../assets/images/brand1.png";
 import { HiFire } from "react-icons/hi";
 
 function BestSellingProducts() {
