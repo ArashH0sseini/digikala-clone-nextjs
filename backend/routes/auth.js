@@ -100,7 +100,7 @@ router.post('/login/verify-phone', validate(loginStepTwoSchema)  , async (req, r
 
 const registerSchema = yup.object({
     body : yup.object({
-        name : yup.string().min(2),
+        name : yup.string(),
         phone : yup.string().required().matches(phoneRegExp, 'Phone number is not valid')
                 .test('check-phone-exists' , 'the phone is already exists' , async (value) => {
                     let user = await userRepo.findBy('phone' , value)

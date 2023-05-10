@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "app/layouts/style.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "app/layouts/style.tsx", "app/components/admin/Darkmode.js"],
   "exclude": ["node_modules"]
 }

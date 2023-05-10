@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { HiChevronLeft } from "react-icons/hi";
 import ErrorImage from "../app/assets/images/page-not-found.png";
 import Divider from "../app/components/shared/Divider";
@@ -17,10 +18,12 @@ const Custom404 = () => {
       <Header />
       <div className="flex flex-col items-center justify-center my-10 space-y-8">
         <p className="font-semibold text-xl text-gray-800">صفحه‌ای که دنبال آن بودید پیدا نشد!</p>
+        <Link href="/">
         <div className="flex items-center text-cyan-500 cursor-pointer">
           <span className="text-xs">صفحه اصلی</span>
           <HiChevronLeft />
         </div>
+        </Link>
         <div>
           <Image src={ErrorImage} alt="" />
         </div>

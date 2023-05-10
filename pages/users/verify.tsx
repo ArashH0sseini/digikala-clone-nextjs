@@ -35,8 +35,8 @@ const clearPhoneVerifyToken = () => {
     <div className="flex flex-col items-center justify-center h-screen px-4">
       <div className="w-full lg:w-[400px] p-8 border-[1px] border-gray-200 rounded-lg">
         <FormHeader
-          title="کد تایید را وارد کنید"
-          description={`کد تایید برای شماره ۰۹۳۸۹۹۲۴۵۵۰ پیامک شد`}
+          title="لطفا کد تایید را وارد نمایید"
+          description={`کد تایید برای شماره پیامک شد`}
         />
         <VerifyForm token={token} clearToken={clearPhoneVerifyToken} />
       </div>
