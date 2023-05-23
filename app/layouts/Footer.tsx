@@ -36,19 +36,29 @@ import Rezi from "../assets/images/rezi.png";
 import { FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 import { SiAparat } from "react-icons/si";
 import Divider from "../components/shared/DividerFull";
+import Link from "next/link";
 
-function Footer() {
+const Footer = () => {
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className=" mt-6">
       <div className="px-4">
         <div className="flex items-center justify-between">
           <Image src={Digi} alt="" width="120" />
-          <div className="flex items-center cursor-pointer border-[1px] py-2 px-3 rounded-lg text-gray-400 space-x-2 space-x-reverse">
-            <span className="text-sm">بازگشت به بالا</span>
-            <HiChevronUp className="w-6 h-6" />
-          </div>
+          <button onClick={() => goToTop()}>
+            <div className="flex items-center cursor-pointer border-[1px] py-2 px-3 rounded-lg text-gray-400 space-x-2 space-x-reverse">
+              <span className="text-sm">بازگشت به بالا</span>
+              <HiChevronUp className="w-6 h-6" />
+            </div>
+          </button>
         </div>
-        <div className="flex flex-col lg:flex-row lg:items-center space-x-5 space-x-reverse lg:space-x-0 space-y-3 py-4 lg:space-y-0">
+        <div className="flex flex-col lg:flex-row lg:items-center lg:space-x-5 lg:space-x-reverse space-y-3 py-4 lg:space-y-0">
           <p className="text-xs text-gray-700">تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</p>
           <p className="hidden lg:block text-gray-400"> | </p>
           <p className="text-xs text-gray-700">
@@ -81,48 +91,46 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row justify-between space-y-6 lg:space-y-0 my-6">
-          <div className="flex space-x-28 space-x-reverse">
-            <div>
-              <h3 className="font-medium text-gray-800 mb-5 text-sm lg:text=base">
-                با دیجی‌کالا
-              </h3>
-              <ul className="text-gray-500 text-xs lg:text-sm space-y-5">
-                <li>اتاق خبر دیجی‌کالا</li>
-                <li>فروش در دیجی‌کالا</li>
-                <li>فرصت های شغلی</li>
-                <li>گزارش تخلف دیجی‌کالا</li>
-                <li>تماس با دیجی‌کالا</li>
-                <li>درباره دیجی‌کالا</li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-medium text-gray-800 mb-5 text-sm lg:text=base">
-                خدمات مشتریان
-              </h3>
-              <ul className="text-gray-500 text-xs space-y-5">
-                <li>پاسخ به پرسش های متداول</li>
-                <li>رویه های بازگرداندن کالا</li>
-                <li>شرایط استفاده</li>
-                <li>حریم خصوصی</li>
-                <li>گزارش باگ</li>
-              </ul>
-            </div>
-
-            <div className="hidden lg:block">
-              <h3 className="font-medium text-gray-800 mb-5">
-                راهنمای خرید از دیجی‌کالا
-              </h3>
-              <ul className="text-gray-500 text-sm space-y-5">
-                <li>نحوه ثبت سفارش</li>
-                <li>رویه ارسال سفارش</li>
-                <li>شیوه های پرداخت</li>
-              </ul>
-            </div>
+        <div className="flex flex-row flex-wrap lg:flex-nowrap w-full justify-between space-y-6 lg:space-y-0 my-6">
+          <div>
+            <h3 className="font-medium text-gray-800 mb-5 text-sm lg:text=base">
+              با دیجی‌کالا
+            </h3>
+            <ul className="text-gray-500 text-xs lg:text-sm space-y-5">
+              <li>اتاق خبر دیجی‌کالا</li>
+              <li>فروش در دیجی‌کالا</li>
+              <li>فرصت های شغلی</li>
+              <li>گزارش تخلف دیجی‌کالا</li>
+              <li>تماس با دیجی‌کالا</li>
+              <li>درباره دیجی‌کالا</li>
+            </ul>
           </div>
 
-          <div className="flex flex-col">
+          <div>
+            <h3 className="font-medium text-gray-800 mb-5 text-sm lg:text=base">
+              خدمات مشتریان
+            </h3>
+            <ul className="text-gray-500 text-xs space-y-5">
+              <li>پاسخ به پرسش های متداول</li>
+              <li>رویه های بازگرداندن کالا</li>
+              <li>شرایط استفاده</li>
+              <li>حریم خصوصی</li>
+              <li>گزارش باگ</li>
+            </ul>
+          </div>
+
+          <div className="hidden lg:block">
+            <h3 className="font-medium text-gray-800 mb-5">
+              راهنمای خرید از دیجی‌کالا
+            </h3>
+            <ul className="text-gray-500 text-sm space-y-5">
+              <li>نحوه ثبت سفارش</li>
+              <li>رویه ارسال سفارش</li>
+              <li>شیوه های پرداخت</li>
+            </ul>
+          </div>
+
+          <div className="flex flex-col w-full lg:w-auto">
             <div className="flex flex-row items-center justify-between lg:items-start lg:flex-col space-y-5">
               <h3 className="text-gray-800 font-medium text-sm lg:text-base">
                 همراه ما باشید!
@@ -306,6 +314,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

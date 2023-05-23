@@ -3,7 +3,7 @@ import React from "react";
 import { HiChevronLeft } from "react-icons/hi";
 import AmazingImage from "../assets/images/Amazings.svg";
 import BoxPize from "../assets/images/box.png";
-import ProductSlider from "./ProductSlider";
+import ProductSlider from "../components/ProductSlider";
 
 function AmazingProducts() {
   return (

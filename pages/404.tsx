@@ -6,7 +6,7 @@ import Divider from "../app/components/shared/Divider";
 import DividerFull from "../app/components/shared/DividerFull";
 import Footer from "../app/layouts/Footer";
 import Header from "../app/layouts/Header";
-import MainHeader from "../app/layouts/MainHeader";
+import MainHeader from "../app/layouts/TopHeader";
 import Navbar from "../app/layouts/Navbar";
 
 const Custom404 = () => {

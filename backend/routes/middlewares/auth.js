@@ -4,6 +4,7 @@ const db = require('../../app/db/createDatabase');
 const auth = (req, res, next) => {
     const token = req.headers?.authorization || req.cookies?.shopy_token;
 
+    console.log(token);
     if(! token ) {
         return res.status(403).json({ status: 'fail' , message : 'unauthorized'})
     }
@@ -18,12 +19,12 @@ const auth = (req, res, next) => {
                 return;
             }
 
-            if(user.token != token) {
+            if(user?.token != token) {
                 return res.status(403).json({ status: 'fail' , message : 'unauthenticated'})
             }
 
-            const { id , name , email } = user;
-            req.user = { id , name , email }
+            const { id , name , email , is_admin} = user;
+            req.user = { id , name , email , is_admin }
             next()
         });
     } catch(err) {

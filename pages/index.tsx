@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Divider from "../app/components/shared/Divider";
 import DividerFull from "../app/components/shared/DividerFull";
-import MainHeader from "../app/layouts/MainHeader";
+import MainHeader from "../app/layouts/TopHeader";
 import Header from "../app/layouts/Header";
 import Navbar from "../app/layouts/Navbar";
 import Slider from "../app/layouts/Slider";
@@ -32,11 +32,6 @@ const Home: NextPage = () => {
         <meta name="digikala" content="Digikala Clone NEXT.JS" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <MainHeader />
-      <Navbar />
-
-      <Divider />
 
       <Header />
       <StoryBox />
